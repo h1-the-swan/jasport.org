@@ -1,0 +1,14 @@
+body {
+  font-family: Baskerville;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+	padding-top: 1em;
+}
+
+.project {
+	display: block;
+}
+
