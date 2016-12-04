@@ -2,13 +2,33 @@ body {
   font-family: Baskerville;
   text-align: center;
   padding: 20px;
+	background-image: url("../img/square_bg.png");
+}
+
+div#contents {
+	padding: 10px;
+	background: white;
 }
 
 h2 {
-	padding-top: 1em;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
 }
 
-.project {
-	display: block;
+h5 {
+	font-size: 2rem;
 }
 
+p {
+	font-size: 1.6rem;
+	font-family: "Franklin Gothic";
+}
+
+.row.project {
+	margin-bottom: 3rem;
+	text-align: left;
+}
+
+div.project.link {
+	padding-top: 2rem;
+}
